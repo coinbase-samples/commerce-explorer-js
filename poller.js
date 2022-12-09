@@ -19,8 +19,6 @@ require("dotenv").config();
 const cors = require("cors");
 const axios = require("axios");
 const crypto = require("crypto");
-const { arrayify } = require("ethers/lib/utils");
-const { exit } = require("process");
 const PORT = 8000;
 const { getBackendHeaders } = require("./components/getBackendHeaders");
 
