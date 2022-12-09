@@ -1,0 +1,44 @@
+{
+  "name": "rose-interiors",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev::socket": "node ws-server/server.js",
+    "start::backend": "nodemon poller.js",
+    "build": "next build",
+    "start": "node ws-server/server.js && next start",
+    "lint": "next lint",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@cloudscape-design/components": "^3.0.22",
+    "@cloudscape-design/global-styles": "^1.0.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "next": "12.2.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^9.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-qr-code": "^2.0.8",
+    "react-redux": "^8.0.2",
+    "react-use-websocket": "^4.2.0",
+    "socket.io": "^4.5.2"
+  },
+  "devDependencies": {
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.3",
+    "webpack-license-plugin": "^4.2.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}

@@ -1,0 +1,87 @@
+.image img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+.image div {
+  margin: 10px;
+  overflow: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.container div {
+  overflow: hidden;
+}
+
+.container h3 p {
+  color: #033160;
+  padding: 10px;
+}
+
+.icon {
+  display: contents;
+  margin: 5px;
+}
+
+.square {
+  width: 200px;
+  height: 300px;
+}
+
+.description {
+  /* border: 3px solid rgb(237, 10, 40); */
+  padding: 20px;
+  width: 50%;
+  float: left;
+}
+
+.description img {
+  float: left;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* .square div{
+  background-color: #033160;
+} */
+
+.expandable {
+  /* border: 3px solid rgb(199, 10, 237); */
+  font-size: large;
+}
+
+.expandable p {
+  font-weight: bold;
+  float: center;
+  font-size: x-large;
+}
+
+.expandable img {
+  /* border: 3px solid rgb(237, 10, 40); */
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.expandable div {
+  /* border: 3px solid rgb(237, 10, 40); */
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+.expandableImage {
+  /* border: 3px solid rgb(10, 237, 36);  */
+  text-align: center;
+}
