@@ -18,19 +18,14 @@ const express = require("express");
 require("dotenv").config();
 const cors = require("cors");
 const axios = require("axios");
-const crypto = require("crypto");
 const PORT = 8000;
 const { getBackendHeaders } = require("./components/getBackendHeaders");
 
 app = express();
 app.use(cors());
 
-//client request will include chargew_id or get from CartContexdt
-let charge_id = "GBPQXBAE";
-
 //routes
 app.get("/payments", async (req, res) => {
-  //console.log(process.env.NEXT_PUBLIC_API_VERSION)
   console.log(req.query.code);
   const options = {
     method: "GET",
@@ -40,10 +35,7 @@ app.get("/payments", async (req, res) => {
 
   try {
     axios.request(options).then((response) => {
-      //console.log(response.data);
       const payments = response.data.data.payments;
-      console.log(payments);
-      //return payments
       res.status(200).send(payments);
     });
   } catch (error) {
