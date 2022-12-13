@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "node ws-server/server.js && next start",
     "lint": "next lint",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "gen:license": "license-report --output=table --config=license-report-config.json > licenses.txt"
   },
   "dependencies": {
     "@cloudscape-design/components": "^3.0.22",
@@ -34,7 +35,7 @@
   "devDependencies": {
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.3",
-    "webpack-license-plugin": "^4.2.2"
+    "license-report": "^6.3.0"
   },
   "browser": {
     "fs": false,
