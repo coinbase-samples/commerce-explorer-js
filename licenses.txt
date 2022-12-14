@@ -1,0 +1,24 @@
+name                              license period  material / not material  license type  link                                                         comment  installed version  author
+----                              --------------  -----------------------  ------------  ----                                                         -------  -----------------  ------
+@cloudscape-design/components     perpetual       material                 Apache-2.0    git+https://github.com/cloudscape-design/components.git      3.0.138  3.0.22             n/a
+@cloudscape-design/global-styles  perpetual       material                 Apache-2.0    git+https://github.com/cloudscape-design/global-styles.git   1.0.6    1.0.1              n/a
+axios                             perpetual       material                 MIT           git+https://github.com/axios/axios.git                       0.27.2   0.27.2             Matt Zabriskie
+body-parser                       perpetual       material                 MIT           git+https://github.com/expressjs/body-parser.git             1.20.1   1.20.0             n/a
+cors                              perpetual       material                 MIT           git+https://github.com/expressjs/cors.git                    2.8.5    2.8.5              Troy Goode <troygoode@gmail.com> (https://github.com/troygoode/)
+dotenv                            perpetual       material                 BSD-2-Clause  git://github.com/motdotla/dotenv.git                         16.0.3   16.0.3             n/a
+express                           perpetual       material                 MIT           git+https://github.com/expressjs/express.git                 4.18.2   4.18.1             TJ Holowaychuk <tj@vision-media.ca>
+next                              perpetual       material                 MIT           git+https://github.com/vercel/next.js.git                    12.2.3   12.2.3             n/a
+next-compose-plugins              perpetual       material                 MIT           git+https://github.com/cyrilwanner/next-compose-plugins.git  2.2.1    2.2.1              Cyril Wanner <info@cyr.li>
+next-transpile-modules            perpetual       material                 MIT           git+https://github.com/martpie/next-transpile-modules.git    9.1.0    9.0.0              Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>
+nodemon                           perpetual       material                 MIT           git+https://github.com/remy/nodemon.git                      2.0.20   2.0.20             Remy Sharp https://github.com/remy
+prettier                          perpetual       material                 MIT           git+https://github.com/prettier/prettier.git                 2.8.1    2.7.1              James Long
+react                             perpetual       material                 MIT           git+https://github.com/facebook/react.git                    18.2.0   18.2.0             n/a
+react-dom                         perpetual       material                 MIT           git+https://github.com/facebook/react.git                    18.2.0   18.2.0             n/a
+react-qr-code                     perpetual       material                 MIT           git+ssh://git@github.com/rosskhanas/react-qr-code.git        2.0.10   2.0.8              Ross Khanas rtkhanas@gmail.com
+react-redux                       perpetual       material                 MIT           git+https://github.com/reduxjs/react-redux.git               8.0.5    8.0.2              Dan Abramov <dan.abramov@me.com> (https://github.com/gaearon)
+react-use-websocket               perpetual       material                 MIT           git+https://github.com/robtaussig/react-use-websocket.git    4.2.0    4.2.0              Robert Taussig <robert.taussig@gmail.com> (robtaussig.com)
+socket.io                         perpetual       material                 MIT           git://github.com/socketio/socket.io.git                      4.5.4    4.5.2              n/a
+eslint                            perpetual       material                 MIT           git+https://github.com/eslint/eslint.git                     8.21.0   8.21.0             Nicholas C. Zakas <nicholas+npm@nczconsulting.com>
+eslint-config-next                perpetual       material                 MIT           git+https://github.com/vercel/next.js.git                    12.2.3   12.2.3             n/a
+license-report                    perpetual       material                 MIT           git+https://github.com/ironSource/license-report.git         6.3.0    6.3.0              Yaniv Kessler
+webpack-license-plugin            perpetual       material                 MIT           git+https://github.com/codepunkt/webpack-license-plugin.git  4.2.2    4.2.2              Christoph Werner <christoph@codepunkt.de>
