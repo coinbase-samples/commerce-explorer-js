@@ -10,7 +10,7 @@
     "start": "node ws-server/server.js && next start",
     "lint": "next lint",
     "format": "npx prettier --write .",
-    "gen:license": "license-report --output=table --config=license-report-config.json > licenses.txt"
+    "gen:license": "license-report --output=table --config=license-report-config.json > THIRD-PARTY-NOTICES"
   },
   "dependencies": {
     "@cloudscape-design/components": "^3.0.22",
