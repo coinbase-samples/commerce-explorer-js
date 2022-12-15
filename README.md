@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+Built with [Next.js](https://nextjs.org/), Rose Interiors is a luxury furniture store that has implemented Coinbase Commerce to accept crypto payments from customers. 
+
+Payment activity can be monitored via the Coinbase Commerce [Merchant Dashboard](https://beta.commerce.coinbase.com/payments).
+
+Crypto funds are settled within your [managed Coinbase Exchange](https://exchange.coinbase.com/) account as USD to be withdrawn or traded at anytime. 
+
 
 ## Getting Started
 
