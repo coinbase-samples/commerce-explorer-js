@@ -4,7 +4,7 @@ Built with [Next.js](https://nextjs.org/), Rose Interiors is a luxury furniture 
 
 Payment activity can be monitored via the Coinbase Commerce [Merchant Dashboard](https://beta.commerce.coinbase.com/payments).
 
-Crypto funds are settled within your [managed Coinbase Exchange](https://exchange.coinbase.com/) account as USD to be withdrawn or traded at anytime. 
+Crypto funds are settled within a [managed Coinbase Exchange](https://exchange.coinbase.com/) account as USD to be withdrawn or traded at anytime. 
 
 
 ## Getting Started
