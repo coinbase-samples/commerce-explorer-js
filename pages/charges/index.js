@@ -16,25 +16,18 @@
 
 import { useEffect, useState } from "react";
 import Layout from "../../components/Layouts";
-import _ from "lodash";
 import {
   Header,
   Table,
   Link,
   Box,
-  SpaceBetween,
   Button,
-  TextFilter,
   Pagination,
   CollectionPreferences,
 } from "@cloudscape-design/components";
 import axios from "axios";
 
-export function ChargeActivity(props) {
-  let searchOptions = true;
-  let filteredCharges;
-
-  const [filteringText, setFilteringText] = useState("");
+export function ChargeActivity() {
   const [chargesLoaded, setChargesLoaded] = useState(false);
   const [charges, setCharges] = useState([]);
   const [selectedItems, setSelectedItems] = useState([{ name: "Item 2" }]);
@@ -76,14 +69,6 @@ export function ChargeActivity(props) {
       fetchCharge();
     }
   }, [charges, chargesLoaded]);
-
-  if (props.asset) {
-    filteredCharges = _.filter(charges, { id: props.asset });
-    searchOptions = false;
-  }
-  if (filteringText) {
-    filteredCharges = _.filter(charges, { productId: filteringText });
-  }
 
   return (
     <Layout>
@@ -138,18 +123,14 @@ export function ChargeActivity(props) {
         loadingText="Loading resources"
         selectionType="multi"
         trackBy="name"
-        visibleColumns={["id", "date", "price", "status", "refund"]}
+        visibleColumns={["id", "date", "price", "status"]}
         empty={
           <Box textAlign="center" color="inherit">
             <b>No resources</b>
             <Box padding={{ bottom: "s" }} variant="p" color="inherit">
               No resources to display.
             </Box>
-            <Button>Create resource</Button>
           </Box>
-        }
-        filter={
-          <TextFilter filteringPlaceholder="Find resources" filteringText="" />
         }
         header={
           <Header
