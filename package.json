@@ -13,7 +13,7 @@
     "gen:license": "license-report --output=table --config=license-report-config.json > THIRD-PARTY-NOTICES"
   },
   "dependencies": {
-    "@cloudscape-design/components": "^3.0.22",
+    "@cloudscape-design/components": "^3.0.140",
     "@cloudscape-design/global-styles": "^1.0.1",
     "axios": "^0.27.2",
     "body-parser": "^1.20.0",
