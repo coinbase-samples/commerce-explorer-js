@@ -29,7 +29,12 @@
     "react-dom": "18.2.0",
     "react-qr-code": "^2.0.8",
     "react-redux": "^8.0.2",
+<<<<<<< HEAD
     "react-use-websocket": "^4.2.0"
+=======
+    "react-use-websocket": "^4.2.0",
+    "socket.io": "^4.6.1"
+>>>>>>> c2efaa6ff913e5e6590adb273bc9150978210a9d
   },
   "devDependencies": {
     "eslint": "8.21.0",
